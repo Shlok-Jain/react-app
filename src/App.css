@@ -1,0 +1,45 @@
+#calc-inp{
+    width: 400px;
+    margin: auto;
+}
+.buttons{
+    display: grid;
+    margin: auto;
+    width: 400px;
+    grid-template-columns: repeat(4,1fr);
+}
+.num-btn{
+    margin: 10px;
+    font-size: 20px;
+    width: 50px;
+}
+.num-btn-plus{
+    grid-column: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.num-btn-ac{
+    font-size: 15px;
+}
+.main-head{
+    text-align: center;
+    margin: auto;
+}
+.main-calc{
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgb(31, 31, 31);
+}
+.fotter{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
